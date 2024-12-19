@@ -22,3 +22,20 @@ A complete **Node.js** and **Express.js** backend for a restaurant management sy
 - **Authentication**: 
   - **JWT** (JSON Web Tokens) for user authentication
 
+## ⚙️ Setup Instructions
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/restaurant-backend.git
+   cd restaurant-backend
+
+2. Create a .env file in the root directory with the following variables:
+   ```bash
+   PORT=""
+   MONGO_URI=""
+   JWT_SECRET=your_jwt_secret_key
+
+3. Start the server:
+   ```bash
+   npm start   
+  
