@@ -1,0 +1,73 @@
+{
+  "id": "restaurant-api-env",
+  "name": "Restaurant API Environment",
+  "values": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:3000",
+      "description": "Base URL for the restaurant API",
+      "enabled": true
+    },
+    {
+      "key": "test_password",
+      "value": "password123",
+      "description": "Test password for user registration and login",
+      "enabled": true
+    },
+    {
+      "key": "auth_token",
+      "value": "",
+      "description": "JWT authentication token",
+      "enabled": true
+    },
+    {
+      "key": "user_id",
+      "value": "",
+      "description": "Authenticated user ID",
+      "enabled": true
+    },
+    {
+      "key": "category_id",
+      "value": "",
+      "description": "Created category ID for testing",
+      "enabled": true
+    },
+    {
+      "key": "food_id",
+      "value": "",
+      "description": "Created food item ID for testing",
+      "enabled": true
+    },
+    {
+      "key": "restaurant_id",
+      "value": "",
+      "description": "Restaurant ID for testing",
+      "enabled": true
+    },
+    {
+      "key": "test_username",
+      "value": "",
+      "description": "Dynamic test username",
+      "enabled": true
+    },
+    {
+      "key": "test_email",
+      "value": "",
+      "description": "Dynamic test email",
+      "enabled": true
+    },
+    {
+      "key": "test_category_name",
+      "value": "",
+      "description": "Dynamic test category name",
+      "enabled": true
+    },
+    {
+      "key": "test_food_name",
+      "value": "",
+      "description": "Dynamic test food name",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment"
+}
